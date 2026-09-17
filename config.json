@@ -1,0 +1,12 @@
+{
+  "password": "pogi",
+  "secret_key": "cddbc0013d5c78e58c46161ad5f32895c8f1fdc7dc99978757041080ddf094ff",
+  "port": 8077,
+  "currency": "PHP",
+  "default_rate": 20.0,
+  "default_term_days": 100,
+  "overdue_rate": 20.0,
+  "overdue_period_days": 30,
+  "biz_name": "MIKRONET PAYMENT",
+  "pay_note": ""
+}
