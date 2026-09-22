@@ -3972,7 +3972,7 @@ if __name__ == "__main__":
     init_db()
     from waitress import serve
     port = int(os.environ.get("PORT", CFG["port"]))
-    host = os.environ.get("HOST", "127.0.0.1")
+    host = os.environ.get("HOST", "0.0.0.0")
     print("Lending tracker on http://%s:%d" % (host, port))
     print("DB: %s" % DB_PATH)
     serve(app, host=host, port=port, threads=8)
